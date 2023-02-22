@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import './NewsletterRegister.css'
+import Footer from '../Footer/index'
 
 const NewsletterRegister = () => {
 
@@ -28,6 +29,8 @@ const NewsletterRegister = () => {
     }
   return (
     <div className='register-container'>
+        <h1> Register For Our <span>Newsletter</span></h1>
+        <p>Dont Miss Out!</p>
         <form className='register-form' onSubmit={handleSubmit}>
             <div className="input-container">
                 <label htmlFor="">Name</label>

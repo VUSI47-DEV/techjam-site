@@ -25,7 +25,7 @@ const inputs = [
     type:"text",
     placeholder:"First Name",
     label:"Firstname",
-    errorMessage:"Username should be 3-16 characters and should not include speacial characters",
+    errorMessage:"Fill in your name!",
     required :true,
     // pattern:"^[A-Za-z0-9]{3,16}$",
   },

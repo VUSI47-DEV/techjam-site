@@ -1,5 +1,6 @@
 import React,{ useEffect, useState } from 'react'
 import { Row,Col,Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css' 
 
@@ -34,7 +35,7 @@ const IntoGaming = () => {
                 </p>
                 <p data-aos="fade-in">We might be coming to your hometown soon...</p>
                 <div className="into-gaming-btns" data-aos="zoom-in">
-                    <button className='btn-notify'><a href="/register">Notify Me</a></button>
+                    <button className='btn-notify'><Link to="/register">Notify Me</Link></button>
                     <button className='btn-info' onClick={handleInfo}>
                         {showInfo ? "Show Less" : "More Info..."}
                     </button>

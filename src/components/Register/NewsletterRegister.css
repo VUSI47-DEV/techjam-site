@@ -5,6 +5,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.register-container h1{
+    font-size: 50px;
+}
+.register-container h1 span{
+    color: #ff2121;
+}
+.register-container p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1rem;
 }
 .register-form{
     /* text-align: center; */
@@ -30,6 +44,8 @@
     margin: 10px 0px;
     border: 1px solid gray;
     font-size: 15px;
+    border-radius: 6px;
+
 }
 .btn-submit button{
     width: 100%;
