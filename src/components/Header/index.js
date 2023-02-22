@@ -129,7 +129,7 @@ function Header(props) {
                     <FiSearch />
                   </div>
                 </div> */}
-                <button className="header-btn-register"><Link className="header-register" href="/register">Register</Link></button>
+                <button className="header-btn-register"><a className="header-register" href="/register">Register</a></button>
                 <div
                   id="search-overlay"
                   className={`block ${show ? "show" : ""}`}

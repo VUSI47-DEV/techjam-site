@@ -1,4 +1,5 @@
 import React, {useState,useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -51,7 +52,7 @@ const TechjamCareers = () => {
                 <></>
             }
             <div className="career-btns" data-aos="zoom-in">
-                <button className='btn-notify'><a href="/register">Register</a></button>
+                <button className='btn-notify'><Link to="/register">Notify Me</Link></button>
                 <button className='btn-info' onClick={handleInfo}> {showInfo ? "Show Less" : "More Info..."}</button>
             </div>
             
