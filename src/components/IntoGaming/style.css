@@ -1,0 +1,148 @@
+.into-gaming-container{
+    /* min-height: 120vh; */
+    /* position: relative; */
+    
+}
+.bg-into-gaming{
+    /* position: absolute; */
+    background-image: url("../../img/bgs/BG6.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+/* blur */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(.5px); */
+}
+.into-gaming-text{
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    z-index:10;
+}
+.into-gaming-heading{
+    font-size: 40px;
+}
+.into-gaming-heading span{
+    color: #ff2121;
+}
+.into-gaming-paragraph{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 5rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: rgb(141, 141, 141); */
+
+}
+.btn-notify{
+    width: 150px;
+    height: 40px;
+    background:#ff2121;
+    border: 2px solid #ff2121;
+    transition:  1s linear
+}
+.btn-notify:hover{
+    background: transparent;
+    border: 2px solid #ff2121;
+    transition: .5s ease-in-out;
+
+}
+.btn-notify a{
+    font-size: large;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 1rem;
+
+}
+.btn-notify a:hover{
+    color: #fff;
+}
+.btn-info{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    margin: 1rem;
+    font-size: large;
+    border:2px solid #ff2121;
+    text-transform: uppercase;
+    transition:  1s linear
+
+}
+.btn-info:hover{
+    background-color: #ff2121;
+    transition: .5s ease-in-out;
+}
+
+.more-info-roadshow{
+    display: flex;
+    /* align-items: center!important; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* padding: 2rem; */
+    transition: 2s linear;
+
+
+}
+.line{
+    height: 2px;
+    width: 80%;
+    background-color: #ff2121;
+    text-align: center;
+    margin-left: auto;margin-right: auto;
+    margin-top: 1rem;
+}
+.more-info-roadshow p{
+    /* margin-top: 2rem; */
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-top: 1px solid #ff2121; */
+    /* padding: 2rem; */
+
+}
+.more-info-roadshow p span{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff2121;
+}
+.roadshow-video{
+    border-radius: 28px;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+@media(max-width:768px){
+    .into-gaming-paragraph{
+        width: 90%;
+    }
+    .into-gaming-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .more-info-roadshow p{
+        font-size: 17px;
+        font-weight: 600;
+        width: 90%;
+    }
+}
+
+@media(max-width:991px){
+    .btn-info,.btn-notify{
+        width: 70%;
+    }
+}

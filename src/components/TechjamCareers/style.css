@@ -1,0 +1,68 @@
+.bg-careers{
+    background-image: url("../../img/bgs/BG5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(2px); */
+}
+.careers-content{
+    position: relative;
+    z-index: 10;
+}
+.careers-content p{
+    margin-top: 5rem;
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-info p{
+    font-size: 20px;
+    width: 90%;
+}
+.more-info p span{
+    font-size: 35px;
+    color: #ff2121;
+}
+.more-info-list{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+@media(max-width:768px){
+    .careers-content h1{
+        font-size: 40px;
+    }
+    .careers-content p{
+        width: 90%;
+        font-size: 19px;
+        font-weight: 600;
+        width: 90%;
+    
+    }
+
+    .more-info p{
+        font-size: 18px;
+        font-weight: 600;
+        width: 90%;
+    }
+    /* .nxt-level-p{
+        font-size: 17px;
+        font-weight: 600;
+        width: 100%;
+    } */
+}

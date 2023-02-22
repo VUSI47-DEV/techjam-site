@@ -1,0 +1,78 @@
+.slider-img{
+    width: 460px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+.slides-container h4{
+    background-color: transparent!important;
+    text-align: center;
+    font-size: 30px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.slides-container h4::after{
+    position: absolute;
+   content: "";
+   width: 20%;
+   border-color: #ff2121 transparent !important;
+   margin: 10px 0;
+   border-style: solid !important;
+   border-width: 4px 7px 0px 7px !important;
+   left: 50%;
+   top: 100%;
+   -webkit-transform: translate(-50%, 100%);
+           transform: translate(-50%, 100%);
+   -webkit-transition: all 850ms ease;
+   transition: all 850ms ease
+/*  */
+}
+.slides-container p{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slides-container{
+    /* background-color: black; */
+    margin-top: 05rem;
+   
+}
+
+.s-container{
+    background-color: black;
+}
+.s-container h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    color: #ff2121;
+
+}
+.swiper-button-next,
+.swiper-button-prev
+{
+    /* background-color: ; */
+    color: black;
+    /* background-color:  #0e1727; */
+    font-weight: 800;
+    /* padding: 2rem;
+    border-radius: 30px; */
+
+    
+    
+}

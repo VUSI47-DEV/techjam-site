@@ -1,0 +1,160 @@
+.video{
+    text-align: center;
+}
+.video-container{
+   background-color:black; 
+   background: #0B192F;
+   background: url('../../img/testimonial-shiny\ overlay.svg'); 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #181829 10px ), repeating-linear-gradient( #274d4f55, #274d4f );  */
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+}
+.video-container iframe{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+.video-container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    /* color: #ff7a21; */
+    display: block;
+}
+.video-container h1 span{
+    color: #ff2121;
+}
+.video-container h1:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    border-color: #ff2121 transparent !important;
+    margin: 10px 0;
+    border-style: solid !important;
+    border-width: 4px 7px 0px 7px !important;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease
+}
+.vid-heading{
+    padding: 3rem;
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-size: 60px;
+     color:rgb(225, 225, 225);
+
+    position: relative;
+    text-align: center;
+    top: 10rem;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    display: block; */
+    /*  */
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    color: #ff2121;
+}
+/* animation */
+.animated {
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes bounceInDown { 
+   0% { 
+       opacity: 0; 
+        -webkit-transform: translateY(-200px); 
+    } 
+    60% { 
+        opacity: 1; 
+        -webkit-transform: translateY(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(-10px); 
+    } 
+    100% { 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-200px); 
+    } 
+    60% { 
+        opacity: 1; 
+        transform: translateY(30px); 
+    } 
+    80% { 
+        transform: translateY(-10px); 
+    } 
+    100% { 
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInDown { 
+    -webkit-animation-name: bounceInDown; 
+    animation-name: bounceInDown; 
+}
+
+@media(max-width:768px){
+    .video-heading{
+        width: 90%;
+    }
+    .video-container h1{
+        font-size: 40px;
+    }
+    .video-container h1:after {
+        width: 40%;
+    }
+}

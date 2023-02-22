@@ -1,0 +1,180 @@
+[
+    
+    {
+        "id":1,
+        "image": "./techjam-event-images/event one/IMG_0321.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":2,
+        "image": "./techjam-event-images/event one/IMG_0329.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":3,
+        "image": "./techjam-event-images/event one/IMG_0348.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":4,
+        "image": "./techjam-event-images/event one/IMG_0351.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":5,
+        "image": "./techjam-event-images/event one/IMG_0394.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":6,
+        "image": "./techjam-event-images/event one/IMG_0402.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":7,
+        "image": "./techjam-event-images/event one/IMG_0405.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":8,
+        "image": "./techjam-event-images/event one/IMG_0412.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":9,
+        "image": "./techjam-event-images/event one/IMG_0416.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":10,
+        "image": "./techjam-event-images/event one/IMG_0417.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":11,
+        "image": "./techjam-event-images/event one/IMG_0418.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":12,
+        "image": "./techjam-event-images/event one/IMG_0422.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":13,
+        "image": "./techjam-event-images/event one/IMG_0429.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":14,
+        "image": "./techjam-event-images/event one/IMG_0430.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":15,
+        "image": "./techjam-event-images/event one/IMG_0438.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":16,
+        "image": "./techjam-event-images/event one/IMG_0448.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":17,
+        "image": "./techjam-event-images/event one/IMG_0453.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":18,
+        "image": "./techjam-event-images/event one/IMG_0468.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":19,
+        "image": "./techjam-event-images/event one/IMG_0500.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":20,
+        "image": "./techjam-event-images/event one/IMG_0531.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":21,
+        "image": "./techjam-event-images/event one/IMG_0689.jpg",
+        "category": 20,
+        "location": "Eastern Cape"
+    },
+    {
+        "id":22,
+        "image": "/techjam-event-images/event one/IMG_0692.jpg",
+        "category":20,
+        "location": "Eastern Cape"    
+    },
+
+
+
+
+  
+    {
+        "id":23,
+        "image": "./techjam-event-images/event two/IMG_0753.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    },
+    {
+        "id":24,
+        "image": "./techjam-event-images/event two/IMG_0754.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    },
+    {
+        "id":25,
+        "image": "./techjam-event-images/event two/IMG_0762.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    },
+    {
+        "id":26,
+        "image": "./techjam-event-images/event two/IMG_0772.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    },
+    {
+        "id":27,
+        "image": "./techjam-event-images/event two/IMG_0773.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    },
+    {
+        "id":28,
+        "image": "./techjam-event-images/event two/IMG_0816.jpg",
+        "category":"10",
+        "location":"Basha Uhuru Festiva"
+    }
+
+
+
+
+]

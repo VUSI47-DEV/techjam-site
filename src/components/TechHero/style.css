@@ -1,0 +1,196 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&family=Gloria+Hallelujah&family=Kavoon&family=Righteous&family=Rock+Salt&family=Sriracha&display=swap');
+.my-hero{
+    height: 110vh;
+    background-color: #080811;
+    /* padding-top: 20rem; */
+    position: relative;
+
+}
+.hero-img{
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(2.5px);
+}
+.hero-text{
+    position: absolute;
+    padding: 4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+
+    text-align: center;
+    color:rgb(225, 225, 225);
+    font-family: 'Orbitron', sans-serif;
+    z-index: 3;
+    font-size: 100px;
+    line-height: 1!important;
+    max-width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Kavoon', cursive; */
+    
+    /* 00 */
+    text-transform: uppercase;
+  /* font-size: 52px; */
+  line-height: 65px;
+  /* margin-bottom: 15px; */
+  font-weight: 700;
+  /* display: block; */
+  color: #fff;
+  letter-spacing: 0.03em;
+  /* position: relative; */
+  /* padding-bottom: 5px; */
+  -webkit-transition: all 850ms ease;
+  transition: all 850ms ease;
+
+  }
+
+.h-i{
+  width: 100%;
+  height: 110vh;
+  /* blur */
+  filter: blur(1px);
+  -webkit-filter: blur(3px);
+}
+.hero-cta{
+    position: absolute;
+    width: 12rem;
+    height: 3rem;
+    z-index: 4;
+    /* top: 90%; */
+    /* left: 50%; */
+    /* right: 50%; */
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    background-color: transparent;
+    /* border: 1px solid #ffff; */
+    color: #fff!important;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    border:2px solid#ff2121;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up-cta{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;    
+}
+.sign-up-cta:hover{
+
+  color: #080811!important;
+
+}
+.hero-cta:hover{
+  background-color:  #ff2121;
+  transition: 1s;
+  border: none;
+}
+/********************************** Animations ************************* */
+
+.animated {
+	-webkit-animation-duration: 1.6s;
+	animation-duration: 1.6s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes fadeInLeftBig { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-200px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeftBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-200px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeftBig { 
+    -webkit-animation-name: fadeInLeftBig; 
+    animation-name: fadeInLeftBig; 
+}
+
+
+/* btn  animation*/
+.animated {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInRightBig { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(200px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInRightBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(200px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(100px); 
+        transform: translateX(-100px); 
+    } 
+} 
+.fadeInRightBig { 
+    -webkit-animation-name: fadeInRightBig; 
+    animation-name: fadeInRightBig; 
+}
+
+@media(max-width:1024px){
+    .hero-text{
+        /* font-size: 300%; */
+        /* width: 100%; */
+        
+    }
+}
+@media(max-width:925px){
+    .hero-text{
+        font-size: 70px;
+        max-width: 90%;
+    }
+    .hero-cta{
+        top: 75%;
+    }
+}

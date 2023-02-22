@@ -1,0 +1,85 @@
+.events-container{
+    background-color: #001122;
+  background: url('../../img/layered-waves-haikei.svg'); 
+    
+    /* background: url('../../img/Rect\ Light.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ; */
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.events-container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    /* color: #ff7a21; */
+    display: block;
+}
+.events-container h1 span{
+    color:#ff2121;
+}
+.events-container h1:after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    border-color: #ff2121 transparent !important;
+    margin: 10px 0;
+    border-style: solid !important;
+    border-width: 4px 7px 0px 7px !important;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease
+}
+
+.looper ul{
+    display: flex;
+    gap: 1rem;
+}
+.looper ul li{
+    list-style: square;
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.btn-sign-up{
+    width: 180px;
+    height: 45px;
+    background-color: #ff2121;
+    border: 2px solid #ff2121;
+    border-radius: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+
+}
+.btn-sign-up a{
+    color: #fff;
+}
+
+@media(max-width:786px){
+    .events-container h1{
+        font-size: 40px;
+        width: 90%;
+    }
+    .events-container h1:after {
+        width: 40%;
+    }
+}

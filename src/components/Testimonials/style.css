@@ -1,0 +1,247 @@
+/* .about-section{
+    background: #bfc4cd;
+    padding: 7rem;
+    text-align: center;
+    line-height: 1.8;
+} */
+/* .about-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+    /* color: #ff7a21; */
+    /* display: block; */
+
+
+/* .about-section h1 span{
+    color: #ff2121;
+}
+
+.about-section h1:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    border-color: #ff7a21 transparent !important;
+    margin: 10px 0;
+    border-style: solid !important;
+    border-width: 4px 7px 0px 7px !important;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease
+}
+
+.h-testimonials{
+    color: #ff2121;
+}
+.fag-testimonial-area{
+    background-color:#0D1A32; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+
+.testimonials{
+    padding: 5rem;
+    background: url("../../img/images/Shiny\ Overlay.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.testimonials h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease;
+}
+ .testimonials h1:after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    border-color: #ff2121 transparent !important;
+    margin: 10px 0;
+    border-style: solid !important;
+    border-width: 4px 7px 0px 7px !important;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+    -webkit-transition: all 850ms ease;
+    transition: all 850ms ease
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+    /* background-color: #707070; */
+
+    }
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+    
+    }
+.card{
+    border-top-left-radius: 35px!important;
+    border-top-right-radius: 35px!important;
+    /* background-color: #FFF; */
+    /* background-color: rgb(108, 248, 15)!important; */
+    border: none!important;
+    background-color:rgb(42, 60, 85)!important;
+    /* background: url("../../img/layered-waves-haikei.svg"); */
+    /* background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    }
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    padding-top: 2rem;
+    }
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    }
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 60, 85);
+    background: url("../../img/images/Shiny\ Overlay.svg");
+    background: center cover no-repeat;
+    border-radius: 25px 25px 0 25px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+    }
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(42, 60, 85);
+    }
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: rgb(42, 60, 85);
+    /* background-color: #FFF; */
+    }
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(42, 60, 85);
+    padding: 3px;
+    }
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #8a8a8a;
+    }
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    }
+.description{
+    font-size: 14px;
+    color: #fefefe;
+    text-align: center;
+    /* margin-top: 20px; */
+    }
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+.button:hover{
+    background: #265DF2;
+    }
+    
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+    }
+.swiper-navBtn:hover{
+    color: #4070F4;
+    }
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+    }
+.swiper-button-next{
+    right: 0;
+    }
+.swiper-button-prev{
+    left: 0;
+    }
+.swiper-pagination-bullet{
+    background-color: #3b3a47;
+    opacity: 1;
+    }
+.swiper-pagination-bullet-active{
+    background-color: #282734;
+    }
+    
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+    .testimonials h1{
+        font-size: 40px;
+    }
+    .testimonials h1:after{
+        width: 40%;
+    }
+    /* .card-wrapper{
+        width: 100%;
+    }
+    .swiper-slide{
+        width: 100%;
+    } */
+}
