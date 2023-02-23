@@ -1,5 +1,5 @@
 .register-container{
-    height: 100vh;
+    height: auto;
     /* border: 2px solid black; */
     background: url('../../img/Rect\ Lite.svg');
     background-size: cover;
@@ -7,10 +7,11 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding: 5rem;
 }
 .register-container h1{
     font-size: 50px;
+    text-align: center;
 }
 .register-container h1 span{
     color: #ff2121;
@@ -19,24 +20,21 @@
     font-size: 30px;
     font-weight: 600;
     margin-top: 1rem;
+    text-align: center;
+
 }
 .register-form{
-    /* text-align: center; */
-    
+    /* text-align: center; */    
 }
+
 .input-container{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     display: flex;
     flex-direction: column;
     width: 400px;
 }
-.input-container label{
-    /* text-align: right; */
-}
+
 .register-form input{
-    /* width: 100%; */
+    max-width: 100%;
     /* height: 50px; */
     /* margin-left: 1rem;  */
 
@@ -45,6 +43,7 @@
     border: 1px solid gray;
     font-size: 15px;
     border-radius: 6px;
+    opacity:.9;
 
 }
 .btn-submit button{
@@ -60,3 +59,14 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
