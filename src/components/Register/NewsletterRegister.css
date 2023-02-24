@@ -30,6 +30,8 @@
 .input-container{
     display: flex;
     flex-direction: column;
+    justify-conent:center;
+    align-items:center;
     width: 400px;
 }
 
