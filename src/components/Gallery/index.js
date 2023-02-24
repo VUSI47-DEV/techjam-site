@@ -42,7 +42,7 @@ const handleFestival = () =>{
     setRoadShow2(false)
     setEsport(false)
     setEventName(" Basha Uhuru Festival- Animation & Gaming Masterclass ")
-    setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ")
+    // setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ")
 
 
 }
@@ -52,7 +52,7 @@ const handleEsport = () =>{
   setRoadShow1(false)
   setRoadShow2(false)
   setEventName("2022 F1 Esports Event")
-  setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor")
+  // setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor")
 
 }
 const handleAll = () =>{
@@ -61,7 +61,7 @@ const handleAll = () =>{
     setRoadShow2(true)
     setEsport(true)
     setEventName("ALL")
-    setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor")
+    // setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor")
 
 }
 
