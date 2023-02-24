@@ -26,7 +26,7 @@ const Gallery = () => {
     setFestival(false)
     setEsport(false)
     setEventName("Into Gaming Roadshow-EC(Makhanda)")
-    setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor") 
+    // setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor") 
 }
 const handleRoadshowTwo = () =>{
     setRoadShow2(true)
@@ -34,7 +34,7 @@ const handleRoadshowTwo = () =>{
     setFestival(false)
     setEsport(false)
     setEventName("Into Gaming Roadshow-EC(Qonce)")
-    setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ")
+    // setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ")
 }
 const handleFestival = () =>{
     setFestival(true)
