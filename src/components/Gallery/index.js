@@ -96,7 +96,7 @@ const style = {
 
           <div className='gallery-text'>
             <h1>{eventName}</h1>
-            <p>{description}</p>
+            {/* <p>{description}</p> */}
           </div>
 
         <div className='gallery-container' >
