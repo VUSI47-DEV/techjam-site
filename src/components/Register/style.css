@@ -38,3 +38,9 @@ form{
     margin-bottom: 15px; */
 
 }
+.back{
+    color:#fff!important;
+}
+.back:hover{
+    color: #fff;
+}

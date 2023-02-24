@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import './NewsletterRegister.css'
 import Footer from '../Footer/index'
+import { Link } from 'react-router-dom'
 
 const NewsletterRegister = () => {
 
@@ -67,6 +68,9 @@ const NewsletterRegister = () => {
             <br/>
             <div className="btn-submit">
                 <button type="submit">SUBMIT</button>
+                <button className='back'>
+                    <Link to="/">GO BACK</Link>
+                </button>
             </div>
         </form>
     </div>
