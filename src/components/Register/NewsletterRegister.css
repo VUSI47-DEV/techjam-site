@@ -1,5 +1,6 @@
 .register-container{
     height: auto;
+    width:100%
     /* border: 2px solid black; */
     background: url('../../img/Rect\ Lite.svg');
     background-size: cover;
