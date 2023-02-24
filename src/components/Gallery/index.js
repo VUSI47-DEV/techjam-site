@@ -18,7 +18,7 @@ const Gallery = () => {
   const [esport,setEsport] = useState(false);
   // state for the event heading & description
   const [eventName,setEventName]=useState("") 
-  const [description,setDescription]=useState("") 
+  // const [description,setDescription]=useState("") 
  
   const handleRoadshowOne = () =>{
     setRoadShow1(true)
