@@ -27,6 +27,8 @@
 }
 .into-gaming-heading{
     font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .into-gaming-heading span{
     color: #ff2121;
@@ -44,11 +46,13 @@
 
 }
 .btn-notify{
-    width: 150px;
+    width: 170px;
     height: 40px;
     background:#ff2121;
     border: 2px solid #ff2121;
-    transition:  1s linear
+    transition:  1s linear;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .btn-notify:hover{
     background: transparent;
@@ -67,7 +71,7 @@
     color: #fff;
 }
 .btn-info{
-    width: 150px;
+    width: 170px;
     height: 40px;
     color: #fff;
     background: transparent;
@@ -75,7 +79,9 @@
     font-size: large;
     border:2px solid #ff2121;
     text-transform: uppercase;
-    transition:  1s linear
+    transition:  1s linear;
+    font-family: 'Orbitron', sans-serif;
+
 
 }
 .btn-info:hover{

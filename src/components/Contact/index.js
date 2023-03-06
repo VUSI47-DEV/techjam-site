@@ -70,11 +70,11 @@ function Contact(props) {
                 <h2 className="heading_animation">
                   Send <span>Message</span>
                 </h2>
-                <p>
+                {/* <p>
                   blanditiis praesentium voluptatum deleniti atque
                   corrupti.accusamus et iusto odio corrupti.accusamus et iusto
                   odioiusto odio dignissimos ducimus qui blanditiis
-                </p>
+                </p> */}
               </div>
             </Col>
           </Row>

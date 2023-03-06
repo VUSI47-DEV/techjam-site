@@ -28,6 +28,8 @@
 	color: #fff;
 	text-transform: uppercase;
 	margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .contact-text p{
     margin: 0
@@ -77,3 +79,7 @@
 	padding-top: 70px !important;
 }
 .fag-contact-form{}
+.contact-head h4{
+    font-family: 'Orbitron', sans-serif;
+	
+}

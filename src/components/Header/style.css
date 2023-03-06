@@ -17,7 +17,7 @@ nav{
     /* margin-right: auto; */
 }
 .mainmenu{
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
 }
 
@@ -37,6 +37,7 @@ nav{
     justify-content: center;
     align-items: center;
     border: transparent;
+
 }
 .header-btn-register:hover{
     background-color: #000;
@@ -46,6 +47,8 @@ nav{
 .header-register{
     font-size: 2px;
     font-weight: 900!important;
+    font-family: 'Orbitron', sans-serif!important;
+
 }
 .mainmenu li{
     display: inline-block;
@@ -60,8 +63,11 @@ nav{
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 16px;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
+    /* font-family: 'Rajdhani', sans-serif; */
+    /* font-family: Poppins; */
+    font-family: 'Orbitron', sans-serif!important;
+    font-size: 14px;
+    /* font-weight: 600; */
 }
 
 .header-right a {

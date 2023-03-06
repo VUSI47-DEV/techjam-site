@@ -19,8 +19,8 @@ const HomeVideo = () => {
                   className="modal__video-style video animated bounceInDown "
                 //   onLoad={spinner}
                   loading="lazy"
-                  width="1180"
-                  height="500"
+                  width="1380"
+                  height="880"
                   src="https://www.youtube.com/embed/_uQ8mLyT3oA"
                   // https://www.youtube.com/watch?v=OsRLoRrpSfA
                   title="YouTube video player"

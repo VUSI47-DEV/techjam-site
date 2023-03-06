@@ -6,7 +6,7 @@
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover ;
-  
+    font-family: 'Orbitron', sans-serif!important; 
     
 
 }
@@ -32,7 +32,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    font-family: "Roboto Condensed", sans-serif;
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: 'Orbitron', sans-serif!important;
+
     font-size: 16px;
     color: #c4c4c4;
     line-height: 1.6em;
@@ -44,6 +46,9 @@ body {
 
 }
 
+.breadcromb-box h3{
+    font-family: 'Orbitron', sans-serif!important;
+}
 
 html,
 body {
@@ -115,7 +120,7 @@ select:focus {
     outline: medium none;
 
 }
-
+.breadcromb-box
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -226,7 +231,7 @@ li {
 
 .site-heading h2 {
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 45px;
     margin-bottom: 30px;
     font-weight: 700;
@@ -236,7 +241,9 @@ li {
     position: relative;
     padding-bottom: 5px;
     -webkit-transition: all 850ms ease;
-    transition: all 850ms ease
+    transition: all 850ms ease;
+    font-family: 'Orbitron', sans-serif;
+
 }
 
 .site-heading h2:after {
@@ -653,7 +660,9 @@ li {
     }
     .breadcromb-box h3{
         font-size: 40px;
-        margin-bottom: 10px
+        margin-bottom: 10px;
+    
+
     }
     .fag-breadcrumb-area{
         padding: 150px 0 80px

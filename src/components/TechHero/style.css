@@ -26,16 +26,16 @@
 
     text-align: center;
     color:rgb(225, 225, 225);
-    font-family: 'Orbitron', sans-serif;
     z-index: 3;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 1!important;
     max-width: 80%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Rajdhani', sans-serif; */
     /* font-family: 'Black Ops One', cursive; */
     /* font-family: 'Gloria Hallelujah', cursive; */
     /* font-family: 'Kavoon', cursive; */
@@ -78,8 +78,10 @@
     background-color: transparent;
     /* border: 1px solid #ffff; */
     color: #fff!important;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+
+    font-size: 18px;
     font-weight: 800;
     border:2px solid#ff2121;
     text-transform: uppercase;
@@ -191,6 +193,6 @@
         max-width: 90%;
     }
     .hero-cta{
-        top: 75%;
+        top: 80%;
     }
 }

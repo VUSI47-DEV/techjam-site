@@ -27,7 +27,7 @@
 .video-container h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 45px;
     margin-bottom: 30px;
     font-weight: 700;
@@ -40,6 +40,8 @@
     transition: all 850ms ease;
     /* color: #ff7a21; */
     display: block;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .video-container h1 span{
     color: #ff2121;
@@ -84,6 +86,8 @@
     transition: all 850ms ease;
     display: block; */
     /*  */
+    font-family: 'Orbitron', sans-serif;
+
     text-transform: uppercase;
     font-size: 40px;
     line-height: 52px;

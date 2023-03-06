@@ -30,6 +30,8 @@
 }
 .intro-section h1{
     font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+
     color: rgb(238, 238, 238);
 }
 /* .intro-section h1::after{

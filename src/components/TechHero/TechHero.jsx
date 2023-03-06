@@ -13,7 +13,7 @@ const TechHero = () => {
                <h1 className='hero-text animated fadeInLeftBig'>POP-UP GAMING AND TECH EVENTS!</h1>
                <div className='vid-container'>
                   <img className='h-i' src={imageThree} alt="" srcset="" />
-                  <button className='hero-cta animated fadeInRightBig'><Link to='/register'> <p className='sign-up-cta'>Register Now</p></Link></button>
+                  <button className='hero-cta animated fadeInRightBig'><Link to='/register'> <p className='sign-up-cta'>Register</p></Link></button>
                </div>
         </div>
     </div>
