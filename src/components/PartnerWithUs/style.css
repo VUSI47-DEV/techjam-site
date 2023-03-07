@@ -19,7 +19,7 @@
     color: #ff2121;
 } */
 .partner-text h3{
-    width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
@@ -44,7 +44,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 100%;
     font-size: 14px;
     margin-top: 5rem;
     padding: 3rem;
@@ -82,7 +82,7 @@
     align-items: center;
 }
 .partner-contact{
-    width: 25%;
+    width: 50%;
     background-color: #ff2121;
     color: #fff;
     padding-top: 1rem;
@@ -93,6 +93,7 @@
     margin-right: auto;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
+    position: relative;
 }
 .our-partners-heading{
     margin-top: 5rem;
