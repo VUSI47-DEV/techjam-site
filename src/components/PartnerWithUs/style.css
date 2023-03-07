@@ -1,0 +1,126 @@
+.partner-section{
+    background: url("../../img/Shiny\ Monochrome.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     /* transform: rotateY(180deg); */
+     padding: 5rem;
+     text-align: center;
+}
+.partner-section span{
+    color: #ff2121;
+}
+.partner-text h1,.partner-text h3{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* .partner-text h1 span, .partner-text h3 span{
+    color: #ff2121;
+} */
+.partner-text h3{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    line-height: 1.4;
+}
+.partner-section h4{
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.row-1,.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.support-card{
+    border: 10px solid #1e2438;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-size: 14px;
+    margin-top: 5rem;
+    padding: 3rem;
+    /* background-color:  #1e2438; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+.support-card:hover{
+    background-color: #1e2438;
+    transition: all ease-in-out .7s ;
+}
+.support-card h5 {
+    /* color: #ff2121; */
+    margin-top: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+/* .support-card h5 span{
+    color: #ff2121;
+} */
+
+/* .support-text span{
+    color: #ff2121;
+} */
+.partner-icon{
+    width: 100px;
+}
+.contact-link{
+    /* margin-top: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-contact{
+    width: 25%;
+    background-color: #ff2121;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+.our-partners-heading{
+    margin-top: 5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.our-partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+    /* padding-left: 15rem; */
+    /* padding-right: 15rem; */
+    position: relative;
+
+}
+.partner-image{
+    max-width: 100px;
+    height: auto;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media(max-width:883px){
+    .row-1,.row-2{
+        flex-direction: column;
+    }
+}

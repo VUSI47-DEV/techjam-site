@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import PageTitle from "../../components/PageTitle";
 import About from "../../components/AboutPage";
 import Footer from "../../components/Footer";
+import PartnerWithUs from "../../components/PartnerWithUs/PartnerWithUs";
 
 const AboutPage = () => {
   return (
@@ -17,6 +18,7 @@ const AboutPage = () => {
         }
       />
       <About />
+      <PartnerWithUs/>
       <Footer />
     </>
   );
