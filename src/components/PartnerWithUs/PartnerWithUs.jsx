@@ -66,18 +66,22 @@ const PartnerWithUs = () => {
         </div>
         <h2 className='our-partners-heading'>Our <span>Partners :</span></h2>
         <div className="our-partners">
-            <img className='partner-image' src={partner1} alt=""/>
-            <img className='partner-image' src={partner2} alt=""/>
-            <img className='partner-image' src={partner3} alt=""/>
-            <img className='partner-image' src={partner4} alt=""/>
-            <img className='partner-image' src={partner5} alt=""/>
-            <img className='partner-image' src={partner6} alt=""/>
-            <img className='partner-image' src={partner7} alt=""/>
-            <img className='partner-image' src={partner8} alt=""/>
-            <img className='partner-image' src={partner9} alt=""/>
-            <img className='partner-image' src={partner10} alt=""/>
-            <img className='partner-image' src={partner11} alt=""/>
-            <img className='partner-image' src={partner12} alt=""/>
+            <div className="logos-1">
+                <img className='partner-image' src={partner1} alt=""/>
+                <img className='partner-image' src={partner2} alt=""/>
+                <img className='partner-image' src={partner3} alt=""/>
+                <img className='partner-image' src={partner4} alt=""/>
+                <img className='partner-image' src={partner5} alt=""/>
+                <img className='partner-image' src={partner6} alt=""/>
+            </div>
+            <div className="logos-2">
+                <img className='partner-image' src={partner7} alt=""/>
+                <img className='partner-image' src={partner8} alt=""/>
+                <img className='partner-image' src={partner9} alt=""/>
+                <img className='partner-image' src={partner10} alt=""/>
+                <img className='partner-image' src={partner11} alt=""/>
+                <img className='partner-image' src={partner12} alt=""/>
+            </div>
             
         </div>
         {/* <Sponers/> */}
