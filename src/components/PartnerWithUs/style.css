@@ -63,6 +63,8 @@
     font-size: 20px;
     width: 100%;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: 700;
 }
 /* .support-card h5 span{
