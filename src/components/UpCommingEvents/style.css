@@ -80,7 +80,7 @@
 
 @media(max-width:786px){
     .events-container h1{
-        font-size: 40px;
+        font-size: 30px;
         width: 90%;
     }
     .events-container h1:after {

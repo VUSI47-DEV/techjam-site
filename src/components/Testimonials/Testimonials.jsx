@@ -26,8 +26,9 @@ import profile6 from '../../img/Testimonial-mages/profile-pic-6.jpg'
 const Testimonial = () => {
   return (
     <div className='testimonials'>
-
-      <h1>Testimonials</h1>
+        <div className='h1-div'>
+            <h1>Testimonials</h1>
+        </div>
 
         <Swiper
           slidesPerView={3}
