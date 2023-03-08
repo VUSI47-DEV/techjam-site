@@ -32,12 +32,12 @@ const PartnerWithUs = () => {
         <div className="partner-text">
             <h1>Partner With <span>Us!</span></h1>
             <h3>
-                We are supported by forward thinking organisations that care
+                We are supported by forward thinking organizations that care
                 deeply and believe in <span>our mission</span> and include how to support it.
             </h3>
         </div>
 
-        <h4 className='support-text'>How You Can <span>Support :</span></h4>
+        <h4 className='support-text'>How You Can <span>Support:</span></h4>
         
         <div className="main-card-wrapper">
             <div className="row-1">
@@ -64,7 +64,7 @@ const PartnerWithUs = () => {
         <div className="contact-link">
             <Link className='partner-contact' to="/contact">Contact</Link>
         </div>
-        <h2 className='our-partners-heading'>Our <span>Partners :</span></h2>
+        <h2 className='our-partners-heading'>Our <span>Partners:</span></h2>
         <div className="our-partners">
                 <img className='partner-image' src={partner1} alt=""/>
                 <img className='partner-image' src={partner2} alt=""/>
