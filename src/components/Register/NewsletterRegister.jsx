@@ -34,7 +34,7 @@ const NewsletterRegister = () => {
         <p>Dont Miss Out!</p>
         <form className='register-form' onSubmit={handleSubmit}>
             <div className="input-container">
-                <label htmlFor="">Name</label>
+                <label htmlFor="">Name:</label>
                 <input 
                     type="text" 
                     placeholder='Your Name' 
@@ -45,7 +45,7 @@ const NewsletterRegister = () => {
             </div>
             <br/>
             <div className="input-container">
-                <label htmlFor="">Surname</label>
+                <label htmlFor="">Surname:</label>
                 <input 
                     type="text" 
                     required 
@@ -56,7 +56,7 @@ const NewsletterRegister = () => {
             </div>
             <br/>
             <div className="input-container">
-                <label htmlFor="">Email Address</label>
+                <label htmlFor="">Email Address:</label>
                 <input 
                     type="email" 
                     placeholder='example@email.com' 
@@ -68,10 +68,14 @@ const NewsletterRegister = () => {
             <br/>
             <div className="btn-submit">
                 <button type="submit">SUBMIT</button>
-                <button className='back'>
-                    <Link to="/">GO BACK</Link>
-                </button>
             </div>
+            {/* <div className="go-back-link">
+                <a className='back' href='/'>GO BACK</a>
+            </div> */}
+            {/* <button type='' onClick={}></button> */}
+            <form className='go-home' action="/">
+                <input type="submit" value="Go Back" />
+            </form>
         </form>
     </div>
   )
