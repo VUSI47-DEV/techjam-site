@@ -72,7 +72,7 @@
     /* color: #ff2121; */
     margin-top: 1rem;
     font-family: 'Orbitron', sans-serif;
-    font-size: 100%;
+    font-size: 150%;
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -97,7 +97,7 @@
     align-items: center;
 }
 .partner-contact{
-    width: 50%;
+    width: 100%;
     background-color: #ff2121;
     color: #fff;
     padding-top: 1rem;
