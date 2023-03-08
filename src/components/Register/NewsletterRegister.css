@@ -54,7 +54,9 @@
     /* margin-left: 1rem;  */
 
     padding: 15px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid gray;
     font-size: 15px;
     border-radius: 6px;
@@ -127,7 +129,13 @@
     text-transform: uppercase;
 }
 
-
+@media(max-width:768px){
+    .register-container h1{
+        font-size: 40px;
+        text-align: center;
+        margin-left: auto;margin-right: auto;
+    }
+}
 
 
 
