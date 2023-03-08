@@ -3,6 +3,7 @@ import axios from 'axios'
 import './NewsletterRegister.css'
 import Footer from '../Footer/index'
 import { Link } from 'react-router-dom'
+import FormInput from '../FormInput/FormInput'
 
 const NewsletterRegister = () => {
 
@@ -36,6 +37,7 @@ const NewsletterRegister = () => {
             <div className="input-container">
                 <label htmlFor="">Name:</label>
                 <input 
+                    className='text-field' 
                     type="text" 
                     placeholder='Your Name' 
                     required
@@ -46,7 +48,8 @@ const NewsletterRegister = () => {
             <br/>
             <div className="input-container">
                 <label htmlFor="">Surname:</label>
-                <input 
+                <input
+                    className='text-field' 
                     type="text" 
                     required 
                     placeholder='Your Last Name'
@@ -58,6 +61,7 @@ const NewsletterRegister = () => {
             <div className="input-container">
                 <label htmlFor="">Email Address:</label>
                 <input 
+                    className='text-field' 
                     type="email" 
                     placeholder='example@email.com' 
                     required
@@ -74,9 +78,11 @@ const NewsletterRegister = () => {
             </div> */}
             {/* <button type='' onClick={}></button> */}
             <form className='go-home' action="/">
-                <input type="submit" value="Go Back" />
+                <button type="submit" value="Go Back" >Go Back</button>
             </form>
         </form>
+
+        {/* <FormInput/> */}
     </div>
   )
 }

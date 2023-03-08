@@ -1,5 +1,5 @@
 .register-container{
-    height: 100%;
+    height: 100vh;
     /* border: 2px solid black; */
     background: url('../../img/Rect\ Lite.svg');
     background-size: cover;
@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 .register-container h1{
     font-size: 50px;
@@ -29,38 +31,48 @@
     margin-top: 1rem;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
-    width: 100%;
-    margin-left: auto;margin-right: auto;
 
 
 }
 .register-form{
     /* text-align: center; */    
+    /* border:2px solid #fee621; */
+    /* width: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%; */
+    /* padding: 10rem; */
+    
 }
 
 .input-container{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    /* width: 400px; */
 }
 .input-container label{
     font-family: 'Orbitron', sans-serif;
     
 }
-
+/* input[type="text"] {
+    width: 100%; 
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+} */
 .register-form input{
-    width: 100%;
-    /* height: 50px; */
-    /* margin-left: 1rem;  */
-
+    /* width: 100%; */
+    height: auto;
+    min-width: 300px;
     padding: 15px;
-    /* margin: 10px 0px; */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px 0px;
     border: 1px solid gray;
     font-size: 15px;
     border-radius: 6px;
     opacity:.9;
+    /* box-sizing: border-box; */
 
 }
 .btn-submit button{
@@ -74,16 +86,16 @@
     font-size: 18px;
     cursor: pointer;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: 'Orbitron', sans-serif;
 
 }
-.go-back-link{
+/* .go-back-link{
     width: 100%;
-}
-.go-back-link a{
+} */
+/* .go-back-link a{
     width: 100%;
-}
+} */
 .back{
 
     background-color: #ff2121;
@@ -113,7 +125,7 @@
     margin: 0;
     padding: 0;
 }
-.go-home input{
+.go-home button{
     position: relative;
     width: 100%;
     height: 50px;
@@ -129,14 +141,52 @@
     text-transform: uppercase;
 }
 
+
 @media(max-width:768px){
-    .register-container h1{
-        font-size: 40px;
-        text-align: center;
-        margin-left: auto;margin-right: auto;
+    /* .register-form{
+        width: 100%;
+    } */
+    .input-container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* width: 100vw; */
+        margin-left: auto;
+        margin-right: auto;
     }
+    .register-container h1{
+        font-size: 160%;
+        line-height: 1.2;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .register-container p{
+        font-size: 100%;
+        line-height: 1.5;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .register-form input{
+        width: 50% ;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    
 }
 
+@media(max-width:320px){
+    .register-form input{
+        min-width: 200px;
+    }
+    .register-container h1{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
 
 
 
