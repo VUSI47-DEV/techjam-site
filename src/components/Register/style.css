@@ -1,21 +1,21 @@
-.register-container{
+/* .register-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     background: url('../../img/Rect\ Lite.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-}
+} */
 
-form{
+
+/* form{
     background-color: transparent;
     padding: 30px 60px;
     border-radius: 12px;
-}
+} */
 .register-form h1{
     color: #ff2121;
     text-align: center;
