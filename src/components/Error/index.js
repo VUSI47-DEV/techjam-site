@@ -13,11 +13,11 @@ function Error(props) {
             <Col lg={12}>
               <div className="page-404__wrap">
                 <div className="page-404__content">
-                  <h1 className="page-404__title">404</h1>
+                  {/* <h1 className="page-404__title">404</h1> */}
                   <p className="page-404__text">
-                    The page you are looking for not available!
+                    {/* The page you are looking for <span>not available!</span>  */}
                   </p>
-                  <Link to="/" className="fag-btn">
+                  <Link to="/" className="fag-btn error">
                     back to home
                   </Link>
                 </div>
