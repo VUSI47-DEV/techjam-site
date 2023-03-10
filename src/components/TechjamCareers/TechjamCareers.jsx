@@ -20,7 +20,7 @@ const TechjamCareers = () => {
     <div className='careers-container'>
         <div className="bg-careers">
         <div className="careers-content">
-            <h1 data-aos="fade-down">Techjam <span style={{color:"#ff2121"}}>NXT-LEVEL</span></h1>
+            <h1 data-aos="fade-down">TechJam <span style={{color:"#ff2121"}}>NXT-LEVEL</span></h1>
             <p data-aos="fade-up">
                 Early Career starters interested in technology. Learn about career
                 opportunities, and talk to many of the partners about their graduate opportunities.

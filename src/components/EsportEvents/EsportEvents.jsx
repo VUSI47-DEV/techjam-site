@@ -24,7 +24,7 @@ const EsportEvents = () => {
             <div className="esport-content">
                 <h1 data-aos="fade-down">Esport <span>Events</span></h1>
                 <p data-aos="fade-up">
-                    Techjam is known for innovating what gaming events look like. We're not
+                    TechJam is known for innovating what gaming events look like. We're not
                     shy of breaking the mold and leaving everyone buzzing when we've left the building
                 </p>
             </div>
@@ -38,7 +38,7 @@ const EsportEvents = () => {
                   elevating the finest African esports stars.
                 </p>
                 <p>
-                  <span>Techjam League</span> - Current tournaments are focused on top players, leaving a great opportunity for
+                  <span>TechJam League</span> - Current tournaments are focused on top players, leaving a great opportunity for
                   brands to make eSports a more mainstream popular sport, with family and friends cheering the young
                   players. 
                 </p>

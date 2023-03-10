@@ -65,7 +65,7 @@ function Footer(props) {
                       </li>
                       
                       <li>
-                        <Link to="/programs" onClick={onClick}>
+                        <Link to="/programs">
                           <FaCaretRight />
                           {/* Help &amp; Support */}
                           TechJam NXTlevel
