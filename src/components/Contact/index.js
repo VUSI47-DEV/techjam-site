@@ -81,7 +81,8 @@ function Contact(props) {
           <Row>
             <Col lg={12}>
               <div className="contact-form-inn">
-                <form action="vusumuzi1947@gmail.com" method="POST">
+                <form action="https://formsubmit.co/vusi@techsprung.co.za" method="POST">
+                  <input type="hidden" name="_captcha" value="false"/>
                   <Row>
                     <Col lg={6}>
                       <div className="comment-field">
