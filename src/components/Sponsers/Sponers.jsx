@@ -14,7 +14,7 @@ import './style.css'
 const Sponers = () => {
   return (
     <div className='sponser-container'>
-        <h1 className='sponser-heading'>Our <span>Sponsers</span></h1>
+        <h1 className='sponser-heading'>Our <span>Sponsors</span></h1>
         <Swiper
          slidesPerView={3}
          spaceBetween={30}

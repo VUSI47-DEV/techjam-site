@@ -30,17 +30,13 @@ function Footer(props) {
                 <div className="single-footer">
                   <h3>Our Mission</h3>
                   <p>
-                  We're driven by the opportunity to change the way people think 
-                  about tech & gaming through impactful experience-led strategies 
-                  that create lasting bonds & build engaged communities. 
+                    Through experience-led strategies that create lasting bonds and engage communities, 
+                    we are driven to change the way people think about tech and gaming. 
                   </p>
-                  <p>
-                  TechJam has become an influential agent of change throughout the 
-                  tech and gaming industries. We partner with brands to change how 
-                  community members view tech & gaming from the inside out
-
-                    {/* euismod metus sit amet, tristique justo. Vestibulum mattis */}
-                    {/* Vestibulum mattis,{" "} */}
+                  <p> 
+                    TechJam has become one of the most influential organisations in the tech and gaming 
+                    industries. Our mission is to change the way community members perceive and understand 
+                    tech and gaming from the inside out, through partnerships and brands. 
                   </p>
                 </div>
               </Col>

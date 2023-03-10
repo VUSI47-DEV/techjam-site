@@ -58,7 +58,10 @@
 .looper ul li{
     list-style: square;
     margin: 1rem;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    text-transform: capitalize;
 }
 
 .btn-sign-up{

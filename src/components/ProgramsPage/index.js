@@ -22,9 +22,12 @@ const Programs = () => {
         <div className="intro-section">
           <h1 data-aos="fade-right">Our <span>Programs</span></h1>
           <p className='programs-paragraph' data-aos="fade-left">
-            Techjam has a host of innovative programs and content designed to take your career to the next
+            {/* Techjam has a host of innovative programs and content designed to take your career to the next
             level. Tap into a vibrant community of creative professionals, gain access to training support and
-            much, much more
+            much, much more */}
+            Boost your career with TechJam's innovative content and programs. 
+            Join a vibrant community of creative professionals, receive training support, and much more!
+
           </p>
         </div>
       </div>
