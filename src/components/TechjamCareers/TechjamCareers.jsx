@@ -22,11 +22,10 @@ const TechjamCareers = () => {
         <div className="careers-content">
             <h1 data-aos="fade-down">TechJam <span style={{color:"#ff2121"}}>NXT-LEVEL</span></h1>
             <p data-aos="fade-up">
-                Early Career starters interested in technology. Learn about career
-                opportunities, and talk to many of the partners about their graduate opportunities.
-                With workshops and interactive sessions, you'll hear firsthand from industry leaders,
-                engineers and entrepreneurs about how you can join the tech industry and what it takes
-                to succeed. ( partner with brands to give out a learnership)
+                Early career technology-oriented individuals have the opportunity to learn and talk to a
+                number of our partners about their graduate opportunities. Workshops and interactive
+                sessions will provide you with firsthand insight into how you can enter the tech industry
+                (partner with brands to offer learnership).
             </p>
 
             {
@@ -34,11 +33,12 @@ const TechjamCareers = () => {
                 <>
                     <div className='more-info'>
                         <p className='nxt-level-p'>
-                            <span>TechJam NXTlevel</span> is the latest evolution of our leading series of careers events for students,
-                            professionals and tech companies. A festival to inspire people from every background to discover careers
-                            in Africa's fastest growing industry to a more diverse section of the public connecting the dots between
-                            education and industry, making a career in the tech sector more accessible to young people in Africa.
-                            What you'll experience:
+                            <span>The NXTlevel</span>is the latest evolution of TechJam's leading career events for students,
+                            professionals, and tech companies. The festival is aimed at inspiring people from all
+                            backgrounds to explore careers in Africa's fastest-growing industry. Young people in
+                            Africa will be able to explore careers in the technology sector through this festival, which
+                            will connect education and industry.
+                            Here's what you can expect:
                         </p>
                         <ul className='more-info-list'>
                             <li>● Career and networking opportunities</li>
